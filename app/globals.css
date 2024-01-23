@@ -20,3 +20,13 @@ body {
   color: rgb(var(--foreground-rgb));
   
 }
+/* VerticalBarChart.module.css */
+.chartContainer {
+  width: 400px; /* Set the desired width for the container */
+}
+
+.chartCanvas {
+  width: 100%; /* Make the canvas take up 100% of the container width */
+  height: auto; /* Ensure the canvas height adjusts proportionally */
+}
+
